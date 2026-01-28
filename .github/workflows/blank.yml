@@ -32,7 +32,7 @@ jobs:
         with:
           auto-fix: true
           check-minor-version: true
-          check-releases: none
+          check-releases: error
           check-release-immutability: none
           token: ${{ secrets.GITHUB_TOKEN }}
       
