@@ -34,7 +34,7 @@ jobs:
           check-minor-version: true
           check-releases: false
           check-release-immutability: false
-          token: ${ github.TOKEN }
+          token: ${{ secrets.GITHUB_TOKEN }}
       
       # Runs a single command using the runners shell
       - uses: jessehouwing/sample-composite-action@v2
