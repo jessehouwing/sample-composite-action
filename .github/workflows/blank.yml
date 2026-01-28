@@ -21,6 +21,9 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
+        with:
+          depth: 0
+          fetch-tags: true
 
       - uses: jessehouwing/actions-semver-checker@copilot/add-v2-release-features
       
