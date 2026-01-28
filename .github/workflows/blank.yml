@@ -22,6 +22,8 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
 
+      - uses: jessehouwing/actions-semver-checker@copilot/add-v2-release-features
+      
       # Runs a single command using the runners shell
       - uses: jessehouwing/sample-composite-action@v2
         with:
