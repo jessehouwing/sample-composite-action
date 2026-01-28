@@ -28,7 +28,7 @@ jobs:
           fetch-tags: true
           persist-credentials: true
 
-      - uses: jessehouwing/actions-semver-checker@copilot/add-v2-release-features
+      - uses: jessehouwing/actions-semver-checker@copilot-add-v2-release-features
         with:
           auto-fix: true
           check-minor-version: true
