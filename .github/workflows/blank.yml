@@ -31,6 +31,9 @@ jobs:
       - uses: jessehouwing/actions-semver-checker@copilot/add-v2-release-features
         with:
           auto-fix: true
+          check-minor-version: true
+          check-releases: false
+          check-release-immutability: false
       
       # Runs a single command using the runners shell
       - uses: jessehouwing/sample-composite-action@v2
