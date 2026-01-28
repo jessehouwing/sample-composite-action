@@ -32,8 +32,8 @@ jobs:
         with:
           auto-fix: true
           check-minor-version: true
-          check-releases: false
-          check-release-immutability: false
+          check-releases: none
+          check-release-immutability: none
           token: ${{ secrets.GITHUB_TOKEN }}
       
       # Runs a single command using the runners shell
