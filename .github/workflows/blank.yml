@@ -30,7 +30,7 @@ jobs:
 
       - uses: jessehouwing/actions-semver-checker@copilot-add-v2-release-features
         with:
-          auto-fix: true
+          auto-fix: false
           check-minor-version: true
           check-releases: error
           check-release-immutability: error
