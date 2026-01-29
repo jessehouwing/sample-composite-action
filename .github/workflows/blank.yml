@@ -27,9 +27,7 @@ jobs:
           fetch-depth: 0
           fetch-tags: true
           persist-credentials: true
-      - run: gh release edit v2.0.0 --draft=false
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - uses: jessehouwing/actions-semver-checker@copilot-add-v2-release-features
         with:
           auto-fix: true
