@@ -29,7 +29,6 @@ jobs:
           persist-credentials: true
 
       - uses: jessehouwing/actions-semver-checker@copilot-add-v2-release-features
-        if: false
         with:
           auto-fix: true
           check-minor-version: true
