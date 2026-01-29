@@ -35,6 +35,7 @@ jobs:
           check-releases: error
           check-release-immutability: error
           token: ${{ secrets.GITHUB_TOKEN }}
+          ignore-versions: "v3.0.0"
       
       # Runs a single command using the runners shell
       - uses: jessehouwing/sample-composite-action@v4.0.0
