@@ -31,7 +31,7 @@ jobs:
 
       - uses: jessehouwing/actions-semver-checker@main
         with:
-          auto-fix: false
+          auto-fix: true
           check-minor-version: true
           check-releases: error
           check-release-immutability: error
